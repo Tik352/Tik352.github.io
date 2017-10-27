@@ -2,13 +2,13 @@ body{
 	font-family: monospace;
 	font-size: 30px;
 	background: #dedede;
-	background: #141414;
+	background: #e8e8e8;
 	color: #ebebeb;
 }
 
 /* Header style */
 .header {
-	margin: 0px;
+	margin: 10px;
 	padding: 0px;
 	text-align: center;
 	font-family: monospace;
