@@ -1,19 +1,18 @@
 body{
 	font-family: monospace;
-	font-size: 30px;
-	background: #dedede;
+	font-size: 16px;
+	background: #40b9ff;
 	color: #ebebeb;
 }
 
 /* Header style */
 .header {
 	margin: 0px;
-	padding: 0px;
+	padding: 5px;
 	text-align: center;
 	font-family: monospace;
 	font-size: 40px;
-	border: 1px solid black;
-	background: #292929;
+	background: #ff4040;
 	border-radius: 3px;
 }
 
@@ -33,25 +32,33 @@ body{
 	text-align: left;
 }
 
-.inputs {
-	margin: 0 500 0;
-	text-align: right;
-	list-style-type: none;  
-}
 
 .inputs input{
+	float:right;
 	margin-bottom: 4px;
 	color: #ebebeb;
-	background: #292929;
+	background: #ebebeb;
 	border-radius: 3px;
-	box-shadow: 1px 1px 10px 3px rgba(0,0,0,0.5);
+	box-shadow: 1px 1px 3px 1px rgba(0,0,0,0.5);
 }	
 
 .inputs p{
-	color: #2e2e2e;
+    text-align: left;
+	color: #ebebeb;
+	text-shadow: 4px 4px 10px rgba(0,0,0,5.3);
 }
+
+.inputs mark{
+	text-align:ceter;
+}
+
+.inputs {
+	float:left;
+	list-style-type: none;  
+}
+
 .menu li{
-	margin: 15px;
+	margin: 10px;
 	padding: 0px;
 	list-style-type: none;  
 	transition: 0.1s all;
@@ -59,18 +66,18 @@ body{
 }
 
 .menu a{ 
+	width:200px;
 	font-size: 50px;
 	text-decoration: none;
 	color: #ebebeb;
-	border: 1px solid white;
 	border-radius: 3px;
-	background: #292929;
+	background: #ff4040;
 	box-shadow: inset 10px 10px 30px 10px rgba(0,0,0,0.5);
-	box-shadow: 10px 10px 30px 10px rgba(0,0,0,0.5);
-	text-shadow: 10px 10px 30px 10px rgba(0,0,0,0.5);
+	box-shadow: 1px 1px 3px 1px rgba(0,0,0,0.5);
 }
 
-.menu li:hover {
+.menu a:hover {
+	background: #ff7575;
 	transform: scale(1.55, 1.55);
 	transition: 0.5s all;
 }
