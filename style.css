@@ -7,7 +7,7 @@ body{
 
 /* Header style */
 .header {
-	margin: 10px;
+	margin: 0px;
 	padding: 0px;
 	text-align: center;
 	font-family: monospace;
@@ -33,24 +33,6 @@ body{
 	text-align: left;
 }
 
-.field {
-	text-align: right;
-	line-height:25px;
-}
-.field label {
-	float: left;
-}
-.counting {
-	float: left;
-}
-
-.field input{
-	margin-bottom: 4px;
-	color: #ebebeb;
-	background: #292929;
-	border-radius: 3px;
-	box-shadow: 1px 1px 10px 3px rgba(0,0,0,0.5);
-}
 .inputs {
 	margin: 0 500 0;
 	text-align: right;
@@ -64,6 +46,10 @@ body{
 	border-radius: 3px;
 	box-shadow: 1px 1px 10px 3px rgba(0,0,0,0.5);
 }	
+
+.inputs p{
+	color: #2e2e2e;
+}
 .menu li{
 	margin: 15px;
 	padding: 0px;
