@@ -1,0 +1,23 @@
+<html>
+	<head>
+		<title>disciplines</title>
+		<meta charset="utf8">
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<div class="header">
+			<p>Математический анализ</p>
+			<p class="formula">«НО<sub>1</sub>» = 0,7· «О<sub>кр1мод</sub>» + 0,3· «О<sub>семин-1</sub>.»</p>
+			<p class="formula">«О<sub>1</sub>» = 0,3· «НО<sub>1</sub>» + 0,7· «О<sub>экз.раб-1</sub>». </p>
+		</div>
+		<div class="counting">
+			<ul class="inputs">
+				<li><p> КР-1мод: <input id="test1"type="text" oninput="CountMark()"></p><li>
+				<li><p> СЕМ: <input id="sem"type="text" oninput="CountMark()"></p><li>
+				<li><p> ЭКЗ: <input id="exam"type="text" oninput="CountMark()"></p><li>
+				<p id="mark">Ваша оценка</p>
+			</ul>
+		</div>
+			<script src="CountMark.js"></script>
+    </body>
+</html>
