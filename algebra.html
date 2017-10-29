@@ -1,7 +1,9 @@
 <html>
 	<head>
-		<title>disciplines</title>
+		<meta name="viewport" content="width=device-width, initial-scale=0.6">
 		<meta charset="utf8">
+		<title>disciplines</title>
+		
 		<link rel="stylesheet" href="style.css">
 	</head>
 	<body>
@@ -11,10 +13,10 @@
 		</div>	
 		<div class="counting">
 			<ul class="inputs">
-				<li><span> КР-1мод: <input id="test1" type="text" oninput="CountMark()"> </span></li>
-				<li><span> ДЗ-2мод: <input id="hw1"type="text" oninput="CountMark()"></span></li>
-				<li><span> СЕМ: <input id="sem"type="text" oninput="CountMark()"></span></li>
-				<li><span> ЭКЗ: <input id="exam"type="text" oninput="CountMark()"></span></li>
+				<li><input id="test1" type="text" oninput="CountMark()"placeholder="КР-1мод"></li>
+				<li><input id="hw1"type="text" oninput="CountMark()" placeholder="ДЗ-2мод"></li>
+				<li><input id="sem"type="text" oninput="CountMark()"placeholder="работа не семинарах"></li>
+				<li><input id="exam"type="text" oninput="CountMark()" placeholder="экзамен"></li>
 				<li><p id="mark">Ваша оценка</p></li>
 			</ul>
 		</div>
