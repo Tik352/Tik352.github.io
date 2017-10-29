@@ -46,7 +46,7 @@ body{
 .inputs input{
 
 	margin: 20px;
-	font-size: 20px;
+	font-size: 30px;
 	text-align:center;
 	background: #ebebeb;
 	border-radius: 3px;
@@ -59,7 +59,7 @@ body{
 
 #mark{
 	text-align:center;
-	font-size: 20px;
+	font-size: 30px;
 	color: black;
 }
 
