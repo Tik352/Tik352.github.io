@@ -3,8 +3,8 @@ body{
 	padding: 0px;
 	font-family: Arial;
 	font-size: 16px;
-	background: #ededed;
-	color: #ededed;
+	background: white;
+	color: white;
 }
 
 /* Header style */
@@ -47,7 +47,7 @@ body{
 	margin: 20px;
 	font-size: 30px;
 	text-align:center;
-	background: #ebebeb;
+	background: white;
 	border-radius: 3px;
 	box-shadow: 1px 1px 3px 1px rgba(0,0,0,0.5);
 }	
@@ -80,7 +80,7 @@ body{
 	padding: 0px 50px;
 	font-size: 50px;
 	text-decoration: none;
-	color: #ebebeb;
+	color: white;
 	border-radius: 3px;
 	background: #47b6ff;
 	box-shadow: 1px 1px 3px 1px rgba(0,0,0,0.5);
