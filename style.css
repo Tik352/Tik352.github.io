@@ -1,10 +1,10 @@
 body{
 	margin: 0px;
 	padding: 0px;
-	font-family: Arial;
+	font-family: Arial, monospace;
 	font-size: 16px;
-	background: white;
-	color: white;
+	background: #ededed;
+	color: #ededed;
 }
 
 /* Header style */
@@ -12,25 +12,23 @@ body{
 	width: 100%;
 	height: 70px;
 	text-align: center;
-	font-family: Arial;
-	font-size: 35px;
+	font-family: monospace;
+	font-size: 40px;
 	background: #47b6ff;
-	box-shadow: 1px 1px 3px 1px rgba(0,0,0,0.5);
 }
-.header span {
-	display: block;
-}
+
 #home{
-	margin: -60px 0px;
+	content: Главная;
 	text-decoration: none;
 	color: white;
 	float: left;
-	padding: 10px 55px 20px 10px;
-	width: 120px;
-	height: 40px;
+	padding: 10px 0px;
+	width: 80px;
+	height: 50px;
 	transition: 0.3s;
-	border-right: 2px solid white;
+	border-right: 2px solid #0896cf;
 }
+/*header's shadow */
 
 .header span{
 	text-align: center;
@@ -39,35 +37,33 @@ body{
 
 .inputs {
 	margin: 70px;
-	padding: 0px;
 }
-
 
 .inputs input{
 
-	margin: 20px;
-	font-size: 30px;
+	margin: 4px;
 	text-align:center;
-	background: white;
+	font-size: 20px;
+	background: #ebebeb;
 	border-radius: 3px;
 	box-shadow: 1px 1px 3px 1px rgba(0,0,0,0.5);
 }	
 .inputs li {
+	margin: 20px;
 	text-align: center;
 	list-style-type: none;
 }
 
 #mark{
 	text-align:center;
-	font-size: 30px;
+	font-size: 20px;
 	color: black;
 }
 
+
 .menu {
 	margin: 70px;
-	padding: 0px
 }
-
 .menu li{
 	margin: 20px;
 	padding: 0px;
@@ -81,7 +77,7 @@ body{
 	padding: 0px 50px;
 	font-size: 50px;
 	text-decoration: none;
-	color: white;
+	color: #ebebeb;
 	border-radius: 3px;
 	background: #47b6ff;
 	box-shadow: 1px 1px 3px 1px rgba(0,0,0,0.5);
@@ -99,6 +95,5 @@ body{
 }
 
 #home:hover {
-	border-right: 2px solid #0065a8;
-	color: #0065a8;
+	filter: invert(1);
 }
