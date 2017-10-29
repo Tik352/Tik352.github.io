@@ -38,9 +38,15 @@ body{
 	line-height: 60px;
 }
 
+.inputs {
+	margin: 70px;
+}
+
+
 .inputs input{
 
 	margin: 4px;
+	font-size: 20px;
 	text-align:center;
 	background: #ebebeb;
 	border-radius: 3px;
@@ -57,9 +63,12 @@ body{
 	color: black;
 }
 
+.menu {
+	margin: 70px;
+}
 
 .menu li{
-	margin: 10px;
+	margin: 20px;
 	padding: 0px;
 	list-style-type: none;  
 	transition: 0.1s all;
