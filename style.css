@@ -1,7 +1,7 @@
 body{
 	margin: 0px;
 	padding: 0px;
-	font-family: Arial, monospace;
+	font-family: Arial;
 	font-size: 16px;
 	background: #ededed;
 	color: #ededed;
@@ -12,7 +12,7 @@ body{
 	width: 100%;
 	height: 70px;
 	text-align: center;
-	font-family: monospace;
+	font-family: Arial;
 	font-size: 40px;
 	background: #47b6ff;
 }
