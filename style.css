@@ -15,6 +15,7 @@ body{
 	font-family: monospace;
 	font-size: 40px;
 	background: #47b6ff;
+	box-shadow: 1px 1px 3px 0px rgba( 0, 0, 0, 0.5);
 }
 
 #home{
