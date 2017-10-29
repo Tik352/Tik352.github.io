@@ -6,16 +6,16 @@
 	</head>
 	<body>
 		<div class="header">
-			<p>ВВПИ</p>
-			<p class="formula">О=(1 | 0,8)×(0,6×ТЗ+0,3×План+0,1×схема)</p>
+			<span>ВВПИ</span>
+			<a id="home" href="index.html">Home</a>
 		</div>
 		<div class="counting">
 			<ul class="inputs">
-				<li><p> ТЗ: <input id="tz"type="text" oninput="CountMark()"></p><li>
-				<li><p> План: <input id="plane"type="text" oninput="CountMark()"></p><li>
-				<li><p> Схема: <input id="scheme"type="text" oninput="CountMark()"></p><li>
-				<li><p> экзамен: <input id="exam"type="text" oninput="CountMark()"></p><li>
-				<p id="mark">Ваша оценка</p>
+				<li><span> ТЗ: <input id="tz"type="text" oninput="CountMark()"></span></li>
+				<li><span> План: <input id="plane"type="text" oninput="CountMark()"></span></li>
+				<li><span> Схема: <input id="scheme"type="text" oninput="CountMark()"></span></li>
+				<li><span> экзамен: <input id="exam"type="text" oninput="CountMark()"></span></li>
+				<li><p id="mark">Ваша оценка</p></li>
 			</ul>
 		</div>
 		<script src="CountMark.js"></script>

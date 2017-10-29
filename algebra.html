@@ -6,36 +6,18 @@
 	</head>
 	<body>
 		<div class="header">
-				<p>Линейная алгебра</p>
-				<p class="formula">НО1 = O<sub>КР-1мод</sub> * 05 + О<sub>ДЗ-2мод</sub> * 0.4 + O<sub>СЕМ</sub> * 0.1</p>
-				<p class="formula">ИО1 = НО1 * 0.4 + ЭКЗ * 0.6</p>
+			<span>Линейная алгебра</span>
+			<a id="home" href="index.html">Home</a>
 		</div>	
 		<div class="counting">
 			<ul class="inputs">
-				<li>
-					<p> КР-1мод:
-						<input id="test1" type="text" oninput="CountMark()"> 
-					</p>
-				</li>
-
-				<li>
-					<p> ДЗ-2мод: 
-						<input id="hw1"type="text" oninput="CountMark()">
-					</p>
-				</li>
-				<li> 
-					<p> СЕМ: 
-						<input id="sem"type="text" oninput="CountMark()">
-					</p>
-				</li>
-				<li>
-					<p> ЭКЗ: 
-						<input id="exam"type="text" oninput="CountMark()">
-					</p>
-				</li>
-				<p id="mark">Ваша оценка</p>
+				<li><span> КР-1мод: <input id="test1" type="text" oninput="CountMark()"> </span></li>
+				<li><span> ДЗ-2мод: <input id="hw1"type="text" oninput="CountMark()"></span></li>
+				<li><span> СЕМ: <input id="sem"type="text" oninput="CountMark()"></span></li>
+				<li><span> ЭКЗ: <input id="exam"type="text" oninput="CountMark()"></span></li>
+				<li><p id="mark">Ваша оценка</p></li>
 			</ul>
 		</div>
-		<script src="CountMark.js"></script>
+			<script src="CountMark.js"></script>
     </body>
 </html>

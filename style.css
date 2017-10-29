@@ -1,61 +1,70 @@
 body{
-	font-family: monospace;
+	margin: 0px;
+	padding: 0px;
+	font-family: Arial, monospace;
 	font-size: 16px;
-	background: #40b9ff;
-	color: #ebebeb;
+	background: #ededed;
+	color: #ededed;
 }
 
 /* Header style */
 .header {
-	margin: 0px;
-	padding: 5px;
+	width: 100%;
+	height: 70px;
 	text-align: center;
 	font-family: monospace;
 	font-size: 40px;
-	background: #ff4040;
-	border-radius: 3px;
+	background: #47b6ff;
 }
 
+#home{
+	content: Главная;
+	text-decoration: none;
+	color: white;
+	float: left;
+	padding: 10px 55px 20px 10px;
+	width: 40px;
+	height: 40px;
+	transition: 0.3s;
+	border-right: 2px solid white;
+}
 /*header's shadow */
 .header {
-	box-shadow: inset 20px 20px -30px rgba(0,0,0,0.5);
-	box-shadow: 10px 10px 30px 10px rgba(0,0,0,0.5);
+
 }
 
-.header p{
-	text-shadow: 4px 4px 10px rgba(0,0,0,5.3);
+.header span{
+	text-align: center;
+	line-height: 60px;
 }
-
-.formula {
-	margin: 10px;
-	font-size: 20px;
-	text-align: left;
-}
-
 
 .inputs input{
-	float:right;
-	margin-bottom: 4px;
-	color: black;
+	float: right;
+	margin: 4px;
+	text-align:center;
 	background: #ebebeb;
 	border-radius: 3px;
 	box-shadow: 1px 1px 3px 1px rgba(0,0,0,0.5);
 }	
-
-.inputs p{
-    text-align: left;
-	color: #ebebeb;
-	text-shadow: 4px 4px 10px rgba(0,0,0,5.3);
-}
-
-.inputs mark{
-	text-align:ceter;
-}
-
-.inputs {
-	float:left;
+.inputs li {
+	display:table-row;
+	text-align:center;
 	list-style-type: none;  
 }
+.inputs span{
+	margin: 0px 0px 0px 470px;
+	float: right;
+	font-size: 20px;
+	color: black;
+}
+
+#mark{
+	text-align:right;
+	font-size: 20px;
+	color: black;
+
+}
+
 
 .menu li{
 	margin: 10px;
@@ -66,18 +75,17 @@ body{
 }
 
 .menu a{ 
-	width:200px;
+	padding: 0px 50px;
 	font-size: 50px;
 	text-decoration: none;
 	color: #ebebeb;
 	border-radius: 3px;
-	background: #ff4040;
-	box-shadow: inset 10px 10px 30px 10px rgba(0,0,0,0.5);
+	background: #47b6ff;
 	box-shadow: 1px 1px 3px 1px rgba(0,0,0,0.5);
 }
 
 .menu a:hover {
-	background: #ff7575;
+	background: #9ed8ff;
 	transform: scale(1.55, 1.55);
 	transition: 0.5s all;
 }
@@ -85,4 +93,9 @@ body{
 .menu li:active {
 	transform: scale(1.25, 1.25);
 	transition: 0.1s;
+}
+
+#home:hover {
+	border-right: 2px solid #0065a8;
+	color: #0065a8;
 }
