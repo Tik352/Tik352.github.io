@@ -24,7 +24,7 @@ body{
 	float: left;
 	padding: 10px 55px 20px 10px;
 	width: 40px;
-	height: 40px;
+	height: 60px;
 	transition: 0.3s;
 	border-right: 2px solid white;
 }
