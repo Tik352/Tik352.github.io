@@ -25,15 +25,15 @@ function CountMark(){
 			document.getElementById('mark').innerHTML = first_semester.toFixed(2) + " ~ " + Math.round(first_semester);			
 			break;
 		case "diskra.html":
-			var hw1 = document.getElementById('hw1').value;
-			var hw2 = document.getElementById('hw2').value;
-			var D12 = (hw1 < hw2) ? ( 0.62 * hw1 + 0.38 * hw2) : ( 0.62 * hw2 + 0.38 * hw1);
-			var test1 =  document.getElementById('test1').value;
-			var test2 =  document.getElementById('test2').value;
-			var test12 = (test1 < test2) ? ( 0.62 * test1 + 0.38 * test2) : ( 0.62 * test2 + 0.38 * test1);
-			var current_control = (D12 < test12) ? ( 0.62 * D12 + 0.38 * test12) : ( 0.62 * test12 + 0.38 * D12);
+			var hw3 = document.getElementById('hw3').value;
+			var hw4 = document.getElementById('hw4').value;
+			var D34 = (hw3 < hw4) ? ( 0.62 * hw3 + 0.38 * hw4) : ( 0.62 * hw3 + 0.38 * hw4);
+			var test3 =  document.getElementById('test3').value;
+			var test4 =  document.getElementById('test4').value;
+			var test34 = (test3 < test4) ? ( 0.62 * test3 + 0.38 * test4) : ( 0.62 * test3 + 0.38 * test4);
+			var current_control = (D34 < test34) ? ( 0.62 * D34 + 0.38 * test34) : ( 0.62 * test34 + 0.38 * D34);
 	
-			var first_semester = 0.8 * current_control + 0.2 * document.getElementById('coursera').value;
+			var second_semester = 0.8 * current_control + 0.2 * document.getElementById('M34').value;
 			document.getElementById('mark').innerHTML = first_semester.toFixed(2) + " ~ " + Math.round(first_semester);		
 			break;
 		case "proga.html":
