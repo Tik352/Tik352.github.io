@@ -4,10 +4,10 @@ function CountMark(){
 	
 	switch(loc){
 		case "algebra.html":
-			var test_mark = document.getElementById('test1').value * 0.5; // Оценка за первую контрольную
-			var hw_mark = document.getElementById('hw1').value * 0.4; // Оценка за КДЗ 2го модуля
+			var test_mark = document.getElementById('test3').value * 0.35; // Оценка за первую контрольную
+			var hw_mark = document.getElementById('hw3').value * 0.1; // Оценка за КДЗ 2го модуля
 			var sem_mark = document.getElementById('sem').value * 0.1; // Оценка за работу на семинарах
-			var exam_mark = document.getElementById('exam').value * 0.6; // оценка за экзамен 
+			var exam_mark = document.getElementById('exam').value * 0.45; // оценка за экзамен 
 			
 			var mark1 = test_mark + hw_mark + sem_mark;
 			var first_semester = 0.4 * mark1 + exam_mark;
