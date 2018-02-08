@@ -50,14 +50,11 @@ function CountMark(){
 			document.getElementById('mark').innerHTML = first_semester.toFixed(2) + " ~ " + Math.round(first_semester);
 			break;	
 		case "vvpi.html":
-			var tz_mark = document.getElementById('tz').value * 0.6;
-			var plan_mark = document.getElementById('plane').value * 0.3;
-			var scheme_mark = document.getElementById('scheme').value * 0.1;
-			var exam_mark = document.getElementById('exam').value * 0.4;
+			var nacop = document.getElementById('nacop').value * 0.4;
+			var exam_mark = document.getElementById('exam').value * 0.6;
 			
-			var O = tz_mark + plan_mark + scheme_mark;
-			var first_semester = O * 0.6 + exam_mark;
-			document.getElementById('mark').innerHTML = first_semester.toFixed(2) + "~" + Math.round(first_semester);
+			var result = nacop + exam_mark;
+			document.getElementById('mark').innerHTML = result.toFixed(2) + "~" + Math.round(result);
 			break;
 	}
 }
