@@ -1,4 +1,6 @@
 <?php
+header("Content-Type: text/plain; charset=utf-8");
+
   $text = "ничего нет";
   $another_text = "и тут тоже";
   if(isset($_GET['text'])){
