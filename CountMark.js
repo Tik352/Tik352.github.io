@@ -11,7 +11,7 @@ function CountMark(){
 			var exam_mark =Math.round( document.getElementById('exam').value * 0.3); 
 			
 			var mark1 = test_mark + hw_mark + sem_mark + colloc;
-			var first_semester = Math.round(0.7 * mark1)+ exam_mark;
+			var first_semester = Math.round(0.7 * mark1) + Math.round(exam_mark);
 			
 			
 			document.getElementById('mark').innerHTML = first_semester.toFixed(2) + " ~ " + Math.round(first_semester);			
