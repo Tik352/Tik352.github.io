@@ -4,14 +4,14 @@ function CountMark(){
 	
 	switch(loc){
 		case "algebra.html":
-			var test_mark = Math.ceil (document.getElementById('test3').value * 0.35); 
-			var hw_mark = Math.ceil(document.getElementById('hw3').value * 0.13); 
-			var sem_mark = Math.ceil(document.getElementById('sem').value * 0.12); 
-			var colloc = Math.ceil(document.getElementById('colloc').value * 0.4);
-			var exam_mark =Math.ceil( document.getElementById('exam').value * 0.3); 
+			var test_mark = Math.round (document.getElementById('test3').value * 0.35); 
+			var hw_mark = Math.round(document.getElementById('hw3').value * 0.13); 
+			var sem_mark = Math.round(document.getElementById('sem').value * 0.12); 
+			var colloc = Math.round(document.getElementById('colloc').value * 0.4);
+			var exam_mark =Math.round( document.getElementById('exam').value * 0.3); 
 			
 			var mark1 = test_mark + hw_mark + sem_mark + colloc;
-			var first_semester = Math.ceil(0.7 * mark1)+ exam_mark;
+			var first_semester = Math.round(0.7 * mark1)+ exam_mark;
 			
 			
 			document.getElementById('mark').innerHTML = first_semester.toFixed(2) + " ~ " + Math.round(first_semester);			
