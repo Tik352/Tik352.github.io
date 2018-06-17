@@ -47,7 +47,7 @@ function CountMark(){
 			// ОХУЕННЫЙ МИН МАКС АЩАЩА БЛЯТЬ
 			var exam_mark = Math.min(document.getElementById('podbel_test').value, document.getElementById('exam_control_task').value) * 0.8 + Math.max(document.getElementById('podbel_test').value, document.getElementById('exam_control_task').value) * 0.2;
 			
-			var first_semester = 0.8 * exam_mark + 0.2 * no;
+			var first_semester = 0.8 * exam_mark + 0.2 * Math.round(no);
 			
 			document.getElementById('mark').innerHTML = first_semester.toFixed(2) + " ~ " + Math.round(first_semester);
 			break;	
